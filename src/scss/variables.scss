@@ -1,0 +1,46 @@
+// FONT VAR
+
+$firstFont: sans-serif;
+$secondFont: monospace; 
+$thirdFont: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+// BORDER VAR
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@mixin radius($righttop, $rightbottom, $leftbottom, $lefttop) {
+    border-top-right-radius: $righttop;
+    border-bottom-right-radius: $rightbottom;
+    border-bottom-left-radius: $leftbottom;
+    border-top-left-radius: $lefttop;
+}
+
+$minelevation: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+$maxelevation: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+
+$simpleborder: 2px solid rgba(0, 0, 0, 0.5);
+
+// SPACING VAR
+
+$textmargin: 16px;
+$divmargin: 12px;
+$textPadding: 12px;
+$divPadding: 10px;
+
+// COLOR VAR 
+
+$main-background: #ffffff;
+$secondary-background: #3dc8a1;
+$tertiary-background: #eb5d9f;
+
+$black: #000000;
+$white: #ffffff;
+
+$first-color: #164245;
+$second-color: #b6ffff;
+$third-color: #f876c4;
+$fourth-color: #6f1a35;
