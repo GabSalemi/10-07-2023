@@ -1,3 +1,3 @@
-import LayoutUser from "./Layout";
+import LayoutUser from "./LayoutUser";
 
 export default LayoutUser;
