@@ -10,7 +10,7 @@ const SingleLocationPage = () => {
     
     
 
-    return <div className={styles.single-location__section}>
+    return <div className={styles.singlelocation__section}>
             <div className={styles.place__div}>
                 <h2>{singleRoom.location}</h2>
                 <img src={singleRoom.imageLocation} alt={singleRoom.name} />
