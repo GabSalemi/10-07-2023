@@ -1,36 +1,42 @@
 .location__page {
+  
     @include xs {
        @include flexDirection(column, space-between, center);
+       flex-wrap: wrap;
        width: 100vw;
        height: auto;
-       padding: 100px;
+       gap: 12px;
      }
    
      @include sm {
        @include flexDirection(column, center, center);
+       flex-wrap: wrap;
        width: 100vw;
        min-height: 100vh;
-       padding: 100px;
+       gap: 12px;
      }
    
      @include md {
-       @include flexDirection(column, center, center);
+       @include flexDirection(row, center, center);
+       flex-wrap: wrap;
        width: 100vw;
        min-height: 100vh;
-       padding: 100px;
+       gap: 12px;
      }
    
      @include lg {
-       @include flexDirection(column, center, center);
+       @include flexDirection(row, center, center);
+       flex-wrap: wrap;
        width: 80vw;
        min-height: 100vh;
-       padding: 100px;
+       gap: 12px;
      }
    
      @include xl {
-       @include flexDirection(column, center, center);
+       @include flexDirection(row, center, center);
+       flex-wrap: nowrap;
        width: 80vw;
        min-height: 100vh;
-       padding: 100px;
+       gap: 12px;
      }
 }

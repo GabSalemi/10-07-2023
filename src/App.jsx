@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import './App.scss'
-import Navbar from './components/navbar';
+
 import Hero from './components/hero'
+import DefaultLayout from './layouts/defaultLayout';
 
 
 function App() {
@@ -9,8 +10,7 @@ function App() {
 
   return (
     <>
-      <Navbar />
-      <Hero />
+      <DefaultLayout />
     </>
   )
 }
