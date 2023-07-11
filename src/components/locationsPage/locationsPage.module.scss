@@ -1,0 +1,36 @@
+.location__page {
+    @include xs {
+       @include flexDirection(column, space-between, center);
+       width: 100vw;
+       height: auto;
+       padding: 100px;
+     }
+   
+     @include sm {
+       @include flexDirection(column, center, center);
+       width: 100vw;
+       min-height: 100vh;
+       padding: 100px;
+     }
+   
+     @include md {
+       @include flexDirection(column, center, center);
+       width: 100vw;
+       min-height: 100vh;
+       padding: 100px;
+     }
+   
+     @include lg {
+       @include flexDirection(column, center, center);
+       width: 80vw;
+       min-height: 100vh;
+       padding: 100px;
+     }
+   
+     @include xl {
+       @include flexDirection(column, center, center);
+       width: 80vw;
+       min-height: 100vh;
+       padding: 100px;
+     }
+}

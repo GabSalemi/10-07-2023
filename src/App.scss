@@ -1,0 +1,31 @@
+#root {
+     @include xs {
+        @include flexDirection(column, center, center);
+        width: 100vw;
+        min-height: 100vh;
+      }
+    
+      @include sm {
+        @include flexDirection(column, center, center);
+        width: 100vw;
+        min-height: 100vh;
+      }
+    
+      @include md {
+        @include flexDirection(column, center, center);
+        width: 100vw;
+        min-height: 100vh;
+      }
+    
+      @include lg {
+        @include flexDirection(column, center, center);
+        width: 80vw;
+        min-height: 100vh;
+      }
+    
+      @include xl {
+        @include flexDirection(column, center, center);
+        width: 80vw;
+        min-height: 100vh;
+      }
+}

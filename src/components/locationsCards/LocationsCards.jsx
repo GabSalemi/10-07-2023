@@ -9,7 +9,7 @@ const LocationsCards = ({data}) => {
     const onHandleClick = (id) => navigate(`/locations/${id}`)
     
 
-    return <div className={`${styles.about__section}`} onClick={() => onHandleClick(data.id)}>
+    return <div className={`${styles.location__card}`} onClick={() => onHandleClick(data.id)}>
         <h2>{data.name}</h2>
         <h3>{data.location}</h3>
         <img src={data.imageLocation} alt={data.name} />
