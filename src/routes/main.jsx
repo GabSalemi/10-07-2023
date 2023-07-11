@@ -17,9 +17,9 @@ import SingleLocationPage from "../components/singleLocationPage";
         <Route element={<DefaultLayout />}>
             <Route path="/" >
                 <Route path="/locations" element={<LocationsPage />}/>
-                <Route path="/locations/:id" element={<SingleLocationPage />}/>
-                <Route path="/about" element={<LayoutUser><About /></LayoutUser>}/>
-                <Route path="/contacts" element={<Contacts /> }/>
+                <Route path="/locations/:id" element={<LayoutUser><SingleLocationPage /></LayoutUser>}/>
+                <Route path="/about" element={<About />}/>
+                <Route path="/contacts" element={<LayoutUser><Contacts /></LayoutUser>}/>
             </Route>
         </Route>
     )
